@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tripuram User Dashboard</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Tripuram User Dashboard</h1>
+  <button id="darkModeBtn">Dark Mode</button>
+
+  <div id="loader" class="loader hidden"></div>
+
+  <div id="analytics"></div>
+
+
+  <!-- Search bar (we will make it work soon) -->
+  <input type="text" id="search" placeholder="Search users by name..." />
+<select id="cityFilter">
+  <option value="">Filter by city</option>
+</select>
+
+
+  <!-- User list -->
+  <ul id="userList"></ul>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
